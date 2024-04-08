@@ -12,7 +12,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.js', 'jest.config.js'],
+  ignorePatterns: ['.eslintrc.js', 'jest.config.js', 'lint-staged.config.js'],
   rules: {
     'no-console': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
